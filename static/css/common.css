@@ -1,0 +1,30 @@
+body {
+    background-color: #f5f5f5;
+    /*color: black;*/
+    min-width: 320px;
+    max-width: 640px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
