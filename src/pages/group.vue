@@ -1,7 +1,10 @@
 <template>
     <div>
-        <img src="../assets/youdao.jpg" alt="">
-        <h3>H5版有道云笔记</h3>
+        <v-header></v-header>
+        <div class="main-content">
+           <h1>有道云协作</h1>
+        </div>
+        <v-footer></v-footer>
     </div>
 
 
@@ -9,9 +12,17 @@
 </template>
 
 <script>
+	import header from "../components/public/header.vue";
+	import footer from "../components/public/footer.vue";
+	import all from "../components/index/all.vue";
+	import list from "../components/public/list.vue";
 	export default {
-        components: {
-        },
+		components: {
+			"v-header": header,
+			"v-footer": footer,
+			"v-folder": all,
+			"v-list": list
+		},
 		data () {
 			return {
 			}
@@ -21,7 +32,10 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-    body {
-        text-align: center;
+    .main-content {
+        padding: 45px 15px;
+        overflow: scroll;
+        z-index: 1;
+        background-color: #ffffff;
     }
 </style>

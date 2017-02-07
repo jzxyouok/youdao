@@ -1,20 +1,20 @@
 <template>
     <footer class="fix-footer">
-        <div class="footer-item">云笔记</div>
-        <div class="footer-item">云协作</div>
-        <div class="footer-item">我的</div>
+        <section class="footer-item" @click="goTo('/index')">云笔记</section>
+        <section class="footer-item" @click="goTo('/group')">云协作</section>
+        <section class="footer-item" @click="goTo('/profile')">我的</section>
     </footer>
-
 </template>
-
 <script>
 	export default {
-		name: 'hello',
-		data () {
-			return {
-				msg: 'Welcome to Your Vue.js App'
-			}
-		}
+		name: 'footer',
+		methods: {
+            goTo: function (url) {
+            	this.$router.push({
+					path: url
+                });
+            }
+        }
 	}
 </script>
 
@@ -28,7 +28,7 @@
        width: 100%;
        height: 44px;
        border-top: 1px #cacaca solid;
-       background-color: #01AAED;
+       background-color: ghostwhite;
        z-index: 999;
    }
    .footer-item {

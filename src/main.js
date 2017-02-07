@@ -7,7 +7,9 @@ const routes = [
 
 	{ path: '/index', component: resolve => require(['./pages/index.vue'], resolve) },
 
-	// { path: '/search', component: resolve => require(['./pages/search.vue'], resolve) }
+	{ path: '/group', component: resolve => require(['./pages/group.vue'], resolve) },
+
+	{ path: '/profile', component: resolve => require(['./pages/profile.vue'], resolve) }
 
 ];
 
