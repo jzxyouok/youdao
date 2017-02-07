@@ -1,7 +1,7 @@
-# youdao
-<<<<<<< HEAD
+# 仿有道云笔记webApp
 
-> A Vue.js project
+
+> 仿有道云笔记webApp
 
 ## Build Setup
 
@@ -17,6 +17,6 @@ npm run build
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
-H5版有道云笔记
->>>>>>> 8f201d545e5a91e546314ee41b50c7bb27749057
+
+
+
