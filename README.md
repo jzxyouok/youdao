@@ -3,6 +3,8 @@
 
 > 仿有道云笔记webApp
 
+![效果图](http://www.fengdb.com/public/images/youdao.png)
+
 ## Build Setup
 
 ``` bash
