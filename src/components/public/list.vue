@@ -2,70 +2,70 @@
     <div class="yd-list">
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">webpack中文资料</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">手机启动APP</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">如何看待知乎</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">十大经典排序算法之JavaScript实现dasdsaasdsadsadsadsdasdasda</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">如何看待知乎</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">十大经典排序算法之JavaScript实现dasdsaasdsadsadsadsdasdasda</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">如何看待知乎</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">十大经典排序算法之JavaScript实现dasdsaasdsadsadsadsdasdasda</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">如何看待知乎</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
         </section>
         <section class="list-item">
             <p class="item-theme">
-                <i class="icon-folder"></i>
+                <i class="icon icon-folder"></i>
                 <span class="item-title">十大经典排序算法之JavaScript实现dasdsaasdsadsadsadsdasdasda</span>
             </p>
             <p class="item-mark"><span class="item-time">2017/02/07</span><span class="item-count">255字</span></p>
@@ -88,7 +88,7 @@
 <style scoped>
 
     .yd-list {
-
+        width: 100%;
     }
     .list-item {
         width: 100%;
@@ -126,15 +126,15 @@
         background: url("../../assets/noteicon.png") no-repeat;
         background-size: 18px;
     }
-    .icon-folder {
-        position: relative;
-        top: -2px;
-        display: inline-block;
-        width: 18px;
-        height: 18px;
-        background: url("../../assets/folder.png") no-repeat;
-        background-size: 18px;
-    }
+    /*.icon-folder {*/
+        /*position: relative;*/
+        /*top: -2px;*/
+        /*display: inline-block;*/
+        /*width: 18px;*/
+        /*height: 18px;*/
+        /*background: url("../../assets/folder.png") no-repeat;*/
+        /*background-size: 18px;*/
+    /*}*/
     .item-mark {
         margin-top: 15px;
         color: #c9c9c9;

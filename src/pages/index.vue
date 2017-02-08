@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="wrapper">
         <v-header></v-header>
         <div class="main-content">
             <v-folder></v-folder>
@@ -33,10 +33,18 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+    .wrapper {
+        width: 100%;
+    }
     .main-content {
-        padding: 45px 15px;
-        overflow: scroll;
+        padding: 60px 15px;
         z-index: 1;
         background-color: #ffffff;
+        /*居中显示*/
+        /*position: relative;*/
+        /*left: 50%;*/
+        /*max-width: 640px;*/
+        /*min-width: 320px;*/
+        /*transform: translateX(-50%);*/
     }
 </style>

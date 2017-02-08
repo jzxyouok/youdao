@@ -1,5 +1,5 @@
 <template>
-    <nav class="fix-nav">
+    <nav class="fix-nav title-font">
         <div class="avatar-box">
             <img src="../../assets/avatar.jpg" class="avatar" alt="">
         </div>
@@ -12,11 +12,6 @@
 <script>
 export default {
   name: 'header',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
 }
 </script>
 
@@ -26,17 +21,23 @@ export default {
         position: fixed;
         top: 0;
         left: 0;
+        /*居中显示*/
+        /*left: 50%;*/
+        /*max-width: 640px;*/
+        /*min-width: 320px;*/
+        /*transform: translateX(-50%);*/
+
         width: 100%;
-        height: 44px;
-        line-height: 44px;
+        height: 60px;
+        line-height: 60px;
         text-align: center;
         background-color: #398dee;
         z-index: 999;
     }
     .avatar-box {
         position: absolute;
-        top: 6px;
-        left: 6px;
+        top: 14px;
+        left: 14px;
     }
     .avatar {
         display: inline-block;
@@ -46,7 +47,6 @@ export default {
     }
     .type-box {
         color: white;
-        font-size: 16px;
         padding: 5px;
         opacity: .6;
     }
